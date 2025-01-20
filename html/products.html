@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/allProducts.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="../js/allProducts.js" defer></script>
+        <!-- <script src="js/main.js" type="module" defer></script> -->
+        <script src="../js/addProduct.js" defer></script>
+        <script src="../js/login.js" type="module" defer></script>
+        <!-- <script src="js/userDetails.js" type="module" defer></script> -->
+        <!-- <script src="../js/navBar.js" defer></script> -->
+        <script src="../js/showNavBarUserName.js" defer></script>
+        <script src="../js/welcomeMsg.js" defer></script>
+        <!-- <script src="js/logout.js" defer></script> -->
+    
+        <script src="../js/logout.js" defer></script>
+        <script src="../js/hideLinks.js" defer></script>
+    <title>All Products</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-links">
+            <a href="../index.html" id="ShopWave">ShopWave</a>
+            <a href="register.html" id="registerBtn">Register</a>
+            <a href="login.html" id="loginBtn">Login</a>
+            <a href="products.html" id="productsBtn">All Products</a>
+            <a href="myproducts.html" id="MyproductsBtn">My Products</a>
+            <a href="addProducts.html" id="addProductsBtn">Add Product</a>
+            <a href="myCart.html" id="myCartBtn">My Cart</a>
+            <a href="wishlist.html" id="myWishlistBtn">My Wishlist</a>
+        </div>
+
+        <div class="dropdown">
+            <a href="userDetails.html" id="userDetailsBtn">User Name</a>
+            <div class="dropdown-content">
+                <a href="userDetails.html" id="accountDetails">Account</a>
+                <a href="admin_dashboard.html" id="superAdminBtn">Dashboard</a>
+                <a href="seller_dashboard.html" id="sellerBtn">Dashboard</a>
+                <a href="#" id="logoutBtn">Logout</a>
+            </div>
+        </div>      
+    </nav> 
+    
+
+    <div class="container">
+        <h1>All Products</h1>
+        <input type="text" id="searchInput" placeholder="Search For Products ...">
+        <div class="product_container" id="productsContainer"></div>
+    </div>
+</body>
+</html>
